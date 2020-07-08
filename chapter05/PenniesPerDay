@@ -1,0 +1,41 @@
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Pennies_Per_Day {
+
+    static final double PENNY = 0.01;
+    static DecimalFormat df = new DecimalFormat("###,###.###");
+
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Number of days you worked: ");
+        int days = scanner.nextInt();
+
+
+        int currentDay = 1;
+        double penny = 0.01;
+        double total_pennies = 0.0;
+
+        System.out.println();
+        System.out.printf("%1s %14s\n", "Day #", "Money");
+        while (currentDay <= days){
+            System.out.printf("%1d %13s %s\n", currentDay , "$", df.format(penny) );
+            total_pennies += penny;
+            currentDay++;
+            penny*=2;
+        }
+        System.out.println("\n");
+
+
+        double million = 1000000;
+        System.out.println("You have earned: $"+df.format(total_pennies));
+
+
+        
+
+    }
+}
