@@ -1,1 +1,82 @@
-edit.
+
+public class DistanceTraveled {
+
+    /**
+     * The distance a vehicle travels can be calculated
+     * as follows:
+     *
+     * DISTANCE = SPEED * TIME
+     *
+     * For example, if a train travels 40
+     * miles per hour (mph) for three hours,
+     * the distance traveled is 120 miles.
+     *
+     * Design a class  that stores the speed of a vehicle
+     * ( in miles per hour ) and the number of hours
+     * it has traveled. It should have a method named
+     * getDistance() that returns the distance, in miles
+     * that the vehicle has traveled.
+     *
+     *
+     * Demonstrate the class in a program that uses a loop
+     * to display the distance a vehicle has traveled for each
+     * hour of a time period specified by the user. For example
+     * if the vehicle is traveling 40  mph for a three-hour
+     * time period, it should display a report similar to one
+     * shown here.
+     *
+     *
+     *      Hour       Distance Traveled
+     *      .................................
+     *      1              40
+     *      2              80
+     *      3             120
+     *
+     */
+
+    private double speed;
+    private int number_of_hours;
+
+    DistanceTraveled(){}
+    
+    DistanceTraveled(double speed, int hours){
+        this.speed = speed;
+        this.number_of_hours = hours;
+    }
+
+    public double getDistance(){
+        return speed * number_of_hours;
+    }
+}
+
+
+// The main class that runs the above class
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter how many hours traveled: ");
+        int num = scanner.nextInt();
+
+        DistanceTraveled d1 = new DistanceTraveled(40, num);
+
+        FileWriter fw = new FileWriter("output.txt");
+
+        System.out.println("Hour\t\tDistance Traveled.");
+        System.out.println("_______________________________________\n");
+
+        for (int i = 1; i <= num; i++ ){
+            System.out.println(i + "\t\t\t" + (i*40) );
+            fw.write(i + "\t\t" + (i+40));
+        }
+        fw.close();
+
+    }
+}
+
+
