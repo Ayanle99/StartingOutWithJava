@@ -1,0 +1,65 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
+
+public class TheGreatestAndLeastOfThese {
+
+    /**
+     * Write a program with a loop that lets the
+     * user enter series of integers. The user should
+     * enter -99 to signal the end of the series.
+     * After all the numbers have been entered, the
+     * program should display the largest and smallest
+     * numbers entered.
+     *
+     * @param args
+     */
+    public static void main(String[] args) {
+
+        int n;
+        ArrayList<Integer> array = new ArrayList<>();
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter an integer: ");
+        while ((n = input.nextInt()) != -99) {
+            System.out.print("Enter an integer: ");
+            array.add(n);
+        }
+
+        System.out.println();
+
+
+        if (!array.isEmpty()){
+            System.out.printf("%s %20s\n", "Smaller Number", "Largest Number");
+            System.out.printf("%d %25d\n", Collections.min(array), Collections.max(array));
+        }else {
+            System.out.println("The array is empty.");
+        }
+
+    }
+
+}
+
+********************** Output ************************
+
+
+Enter an integer: 100
+Enter an integer: 600000
+Enter an integer: 84
+Enter an integer: 53
+Enter an integer: 55
+Enter an integer: 34
+Enter an integer: 3
+Enter an integer: -92
+Enter an integer: -204
+Enter an integer: 4934
+Enter an integer: -99
+
+Smaller Number       Largest Number
+-204                    600000
+
+
+
+
