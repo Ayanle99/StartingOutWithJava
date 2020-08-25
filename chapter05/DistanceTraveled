@@ -70,11 +70,39 @@ public class Main {
         System.out.println("Hour\t\tDistance Traveled.");
         System.out.println("_______________________________________\n");
 
+
+        // If you want to print your results to a file.
+        
         for (int i = 1; i <= num; i++ ){
             System.out.println(i + "\t\t\t" + (i*40) );
             fw.write(i + "\t\t" + (i+40));
         }
         fw.close();
+        
+        
+        // If you want to print to the console ( your screen )
+        
+          Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the speed: ");
+        int speed = scanner.nextInt();
+        while (speed <= 0){
+            System.out.println("Error: Enter the speed: ");
+            speed = scanner.nextInt();
+        }
+        System.out.println("Enter hours: ");
+        int hours = scanner.nextInt();
+        while (hours <= 0){
+            System.out.println("Error: Enter hours: ");
+            hours = scanner.nextInt();
+        }
+
+        DistanceTraveled distanceTraveled = new DistanceTraveled(speed, hours);
+
+        System.out.printf("%-20s%s\n", "Hour", "Distance Traveled");
+        System.out.println();
+        for (int i = 1; i <= hours; i++){
+            System.out.printf("%-20s%s\n", i , String.valueOf( (i * speed)) );
+        }
 
     }
 }
