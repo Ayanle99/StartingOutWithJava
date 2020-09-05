@@ -1,0 +1,150 @@
+
+public class PayrollReport {
+
+
+    /**
+     *    Design a Payroll class that stores an
+     *    employee's ID number, state tax, fed tax,
+     *    and FICA withholdings. The class should
+     *    have a method the employee's net pay as
+     *    fallows:
+     *
+     *    net pay = gross pay - ( state tax + fed tax + FICA)
+     *
+     *    Use the class in a program that displays a weekly payroll
+     *    report. A loop in the program should ask the user for the
+     *    employee ID, gross pay, state tax, federal tax, and
+     *    FICA withholdings and should pass these values to an 
+     *    instance oof the Payroll class. The net pay should be 
+     *    displayed. The loop should terminate when 0 is entered for
+     *    the employee ID number. After the data is entered, the
+     *    program should display the totals for gross pay, state tax,
+     *    fed tax, and fica withholdings, and net pay.
+     *    
+     *    Input validation: Do not accept negative numbers for any
+     *    of the items entered.
+     *
+     */
+
+     private int empID;
+     private  double grossPay;
+     private  double stateTax;
+     private double fedTex;
+     private  double FICA;
+
+     public PayrollReport(int empID,
+                          double grossPay,
+                          double stateTax,
+                          double fedTex,
+                          double FICA){
+         this.empID = empID;
+         this.grossPay = grossPay;
+         this.stateTax = stateTax;
+         this.fedTex = fedTex;
+         this.FICA = FICA;
+     }
+
+     public double getNetPay(){
+
+         double netPay = 0.0;
+
+
+         double totalTax = (stateTax/100) * grossPay + (fedTex/100) * grossPay +
+                 (FICA /100) * grossPay;
+
+         netPay = grossPay - totalTax;
+         return netPay;
+
+
+     }
+}
+
+import java.text.NumberFormat;
+import java.util.Scanner;
+
+public class Payroll_Runner {
+
+    public static void main(String[] args) {
+
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter employee ID: ");
+        int empID = sc.nextInt();
+
+        while (empID < 0){
+            System.out.print("Error: Employee ID: ");
+            empID = sc.nextInt();
+        }
+
+        while (empID != 0){
+
+
+            System.out.print("Gross pay: ");
+            double grossPay = sc.nextDouble();
+
+            while (grossPay < 0){
+                System.out.print("Error: Gross pay: ");
+                grossPay = sc.nextDouble();
+            }
+            System.out.print("State tax: ");
+            double stateTax = sc.nextDouble();
+
+            while (stateTax < 0){
+                System.out.print("Error: State tax: ");
+                stateTax = sc.nextDouble();
+            }
+
+            System.out.print("Fed tax: ");
+            double fedTax = sc.nextDouble();
+            while (fedTax < 0){
+                System.out.print("Error: Fed tax: ");
+                fedTax = sc.nextInt();
+            }
+
+            System.out.print("FICA withholdings: ");
+            double fica = sc.nextDouble();
+
+            while (fica < 0){
+                System.out.print("Error: FICA withholdings: ");
+                fica = sc.nextDouble();
+            }
+
+            PayrollReport payrollReport = new PayrollReport(
+                    empID, grossPay, stateTax, fedTax, fica
+            );
+
+            double netPay = payrollReport.getNetPay();
+
+            NumberFormat nf = NumberFormat.getIntegerInstance();
+            nf.setMinimumFractionDigits(1);
+
+            stateTax = (stateTax/100) * grossPay;
+            fedTax = (fedTax/100) * grossPay;
+            fica = (fica/100) * grossPay;
+
+
+            System.out.println("\n");
+            System.out.println("Gross pay: $" + nf.format(grossPay));
+            System.out.println("State tax: $" + nf.format(stateTax));
+            System.out.println("Federal tax: $" + nf.format(fedTax));
+            System.out.println("FICA withholdings: $" + nf.format(fica));
+            System.out.println("Net Pay: " + nf.format(netPay));
+
+
+            System.out.println("\n");
+            System.out.print("Employee ID: ");
+            empID = sc.nextInt();
+
+
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
