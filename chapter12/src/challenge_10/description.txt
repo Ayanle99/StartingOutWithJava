@@ -1,0 +1,4 @@
+The chapter’s source code folder contains images for a complete decks of poker cards. Write GUI application, similar
+to the one shown in Figure 12-33, that randomly selects a card from the deck and displays it each time the user clicks
+the button . When a card has been selected, it is removed from the deck and cannot be selected again.
+Display a message when no more cards are left in the deck.

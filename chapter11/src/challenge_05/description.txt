@@ -1,0 +1,21 @@
+A movie theater only keeps a percentage of the revenue earned from ticket sales. The remainder goes to the movie company. Create a GUI application that allows the user to enter the following data into text fields:
+
+1) Price per adult ticket
+2) Number of adult ticket sold
+3) Price per child ticket
+4) Number of child tickets sold
+
+The application  should calculate and display the following data for one night box office business at a theater:
+
+1) Gross revenue for adult tickets sold. This is the amount of money taken in for all adult tickets sold.
+2) Net revenue for adult tickets sold. This is the amount of money from adult ticket sales left over after the payment to the movie company has been deducted.
+
+3) Gross revenue for child tickets  sold. This is the amount of money taken in for all child tickets sold.
+4) Net revenue for child tickets sold. This is the amount of money from child ticket sales left over after the payment to the movie company has been deducted.
+
+5) Total gross revenue. This is the sum of gross revenue for adult and child tickets sold.
+6) Total net revenue. This is the sum of net revenue for adult and child tickets sold.
+
+
+Assume the theater keeps 20% of its box office receipts Use a constant in your code to represent this percentage.
+

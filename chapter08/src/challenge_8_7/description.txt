@@ -1,0 +1,5 @@
+Write a program that displays a simulated paycheck. The program should ask the user to enter the data, the payer’s name, and the amount of the check. It should then display  a simulated check with the dollar amount spelled out, as shown here.
+
+_________________________________________________
+Pay to the Order of: John Philips                             11/24/2014
+One thousand nine hundred twenty and 85 cents.      $1920.85

@@ -1,0 +1,4 @@
+TestScoresModificationForSerialization
+
+
+Modify the TestScores class that you created for Programming Challenge1 to be serializable. Write a program that creates an array of at least five TestScore objects and serializes  them. Write another program that deserializes the objects from the file.

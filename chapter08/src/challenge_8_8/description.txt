@@ -1,0 +1,5 @@
+Write a program that asks the user to enter a series of numbers separated by commas. Here is an example of valid input:
+
+       7,9,10,2,18,6
+
+The program should calculate and display the sum of all the numbers.

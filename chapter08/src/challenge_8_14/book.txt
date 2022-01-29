@@ -1,0 +1,55 @@
+package challenge_8_14;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class WordSeparator {
+
+    public static void main(String[] args) {
+
+
+        // StopAndSmellTheRoses
+
+
+        // we create a scanner instance to ask user keyboard input
+        Scanner sc = new Scanner(System.in);
+
+        // the prompt
+        System.out.println("Enter words to be seperated: ");
+        // this will hold the whatever the user enters
+        String words = sc.nextLine();
+
+
+        // an index counter
+        int indexCounter = 0;
+
+        // the result string that would hold the final result
+        String result = "";
+
+        // here is the for loop that would go through
+        // the string user entered character by character
+        for (int j = 0; j < words.length();j++){
+
+            // if we find any character that is uppercase and
+            // the first character is skipped because it's always capitalized
+            if (Character.isUpperCase(words.charAt(j))  && indexCounter >0){
+                // we add an empty string to seperate the words
+                result += " ";
+                // we convert all the letters except the first letter
+                result += Character.toLowerCase(words.charAt(j));
+            }else {
+                // if the letter is not a capital letter
+                // then, we add to our result variable
+                result += words.charAt(j);
+            }
+            // we increment our index counter
+            indexCounter++;
+        }
+
+        // finally we print the result
+        System.out.println(result);
+
+    }
+}

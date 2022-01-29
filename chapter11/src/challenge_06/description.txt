@@ -1,0 +1,13 @@
+Joe’s Automotive performs the following routine maintenance service:
+
+1) Oil change -$26.00
+2) Lube job = $18.00
+3) Radiator flush $30.00
+4) Transmission flush $80.00
+5) Inspection $15.00
+6) Mufler replacemennt $100.00
+7) Tire rotation $20.00
+
+Joe also performs other non routine services and changes for parts and
+for labor ($20 per hour ). Create a GUI application that displays the
+total for a customer’s visit to Joe’s.

@@ -1,0 +1,14 @@
+FileArray
+
+Design a class that has a static method named writeArray.
+The method should take two arguments: the name of file
+and reference to an int array. The file should be opened
+at a binary file, the contents of the array should be
+written to the file, and then the file should be closed.
+
+Write a second method in the class named readArray.
+The method should take two arguments: the name of a
+file and a reference to an int array. The file should
+be opened, data should be read from the file and
+stored in the array, and then the file should be closed.
+Demonstrate both methods in a program.

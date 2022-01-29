@@ -1,0 +1,16 @@
+A retail  store has a preferred customer plan where customers can earn discounts on all their purchases. The amount of a customer’s discount is determined by the amount of the customer’s cumulative purchases int he store, as follows:
+
+	1) When a preferred customer spends $500, he or she gets a 5% discount on all future purchases.
+	2) When a preferred customer spends $1,000, he or she gets a 6% discount on all future purchases.
+ 	3) When a preferred customer spends $1,500, he or she gets a 7% discount on all future purchases.
+	4) When a preferred customer spends $2,000, or more, he or she gets a 10% discount on all future purchases.
+
+	$500 => 5%
+	$1,000 => 6%
+	$1,500 => 7%
+	$2,000 => 10%
+
+Design a class named PreferredCustomer, which inherits from the Customer class you created in Programing Challenge 7,
+The PreferredCustomer class should have fields for the amount of the customer’s purchases and the customer’s discount
+level. Write one or more constructors and the appropriate mutator and accessor methods for the class’s fields.
+Demonstrate the class in a simple program..

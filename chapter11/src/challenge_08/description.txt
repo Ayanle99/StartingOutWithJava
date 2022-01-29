@@ -1,0 +1,12 @@
+Look at the following list of Latin words and their meanings.
+
+Latin					English
+_________________________________
+
+Sinister 				Left
+Dexter 					right
+Medium 				    center
+
+Write a GUI application that translates the Latin words to English the windows
+should have three buttons, one for each latin word. When the user clicks a button,
+the program displays the English translation in a label.

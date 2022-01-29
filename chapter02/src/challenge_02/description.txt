@@ -1,0 +1,9 @@
+Write a program that has the following String variables:
+
+ - firstName
+ - middleName
+ - lastName
+
+ Initialize these with your first, middle, and last names. The program should also have the following char variables :
+ firstInitial, middleInitial, and lastInitial. Store your first, middle and last initials in the these variables.
+ The program  should display the contents of these variables on the screen.

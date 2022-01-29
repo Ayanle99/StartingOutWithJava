@@ -1,0 +1,5 @@
+RetailPriceCalculator
+
+Create a GUI application where the user enters the wholesale cost of an item and its markup percentage into text fields.
+(For example, if an item’s wholesale cost is $5 and its markup percentage is 100%, then its retail price is $10.)
+The application should have a button that displays the item’s retail price when clicked.

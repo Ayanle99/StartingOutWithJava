@@ -1,0 +1,1 @@
+Write a GUI application that simulates a pair of dice, similar to that shown in Figure 12-32. Each time the button is clicked, the application should roll the dice, using random numbers to determine the value of each dice (This chapter’s source code folder contains images that you can use to display the dice.)

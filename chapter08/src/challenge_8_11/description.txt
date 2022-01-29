@@ -1,0 +1,11 @@
+If you have downloaded the book’s source code from www.pearsonhighered.com/gaddis, you will find the file SalesData.txt in the Chapter 08 folder. The file contains the dollar amount of sales that a retail store made each day for number of weeks. Each line in the file contains seven numbers, which are the sales numbers for one week. The numbers are separated by a comma. The following line its an example from the file.
+
+1246.67,1490.07,1679.87,,2378.46, 1783.92, 14.68.99,2059.77
+Write a program that opens the file and processes its contents. The program should display the following
+
+1) the total sales for each week
+2) The average daily sales for each week
+3) the total sales for all of the weeks
+4) the average weekly sales
+5) the week number that has the highest amount of sales
+6) the week number that had the lowest amount of sales

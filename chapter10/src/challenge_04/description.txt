@@ -1,0 +1,21 @@
+MonthClass
+
+Write a class named Month. The class should have an int field named monthNumber that  holds the number of the month. For example,
+January would be 1, February would be 2, and so forth. In addition, provide the following methods:
+
+1) a no-arg constructor that sets the monthNumber field to 1.
+2) A constructor that accepts the number of the month as an argument. It should set the monthNumber field to the value passed as the argument. If a value less than 1or greater than 12 is passed, the constructor should set monthNumber to 1.
+3) A constructor that accepts the name of the month, such as “January” or “February”” , as a an argument. It should set the month number field to the correct corresponding value. A setMonthNumber method the accepts an int argument, which is assigned to the monthNumber field. If a value less than 1 or greater than12 is passed, the method should set monthnumber to 1.
+4) A getMonthNumber method that returns the value in the monthNumber field.
+5) A getMonthName method that returns the name of the month. For example, if the monthNumber field contains 1, then the number should return “January”.
+6) A toString method that returns the same value as the getMonthName method.
+7) An equals method that accepts a Month object as an argument. If the argument object  holds the same data as at the  calling object, the method should return true. Otherwise, it should return false.
+8) A greaterThan method that accepts a Month object as an argument. If the calling object’s monthNumber field is greater than the arguments monthNumber field, this method should return true. Otherwise, it should return false.
+9) A lessThan method that accepts a Month object as an argument. If the calling object’s monthNumber field is less than the arguments monthNumber field, this method should return true. Otherwise, it should return false.
+
+
+MonthClassExceptions
+Programming Challenge 5 of chapter 6 required you to write a Month class that holds information about the month. Write exception classes for the following error conditions:
+A number less than 1 or greater than 12 is given for the month number.
+An invalid string is given for the name of the month.
+Modify the month class so it throws the appropriate exceptions when when either of these errors occurs. Demonstrate the classes in a program.

@@ -1,0 +1,16 @@
+Design a Ship class that has the following members.
+	A field for the name of the ship (a string)
+	a field for the year that the ship was built (a string)
+	a constructor and appropriate accessor and mutators
+	a toString method that displays the ship’s name and the year it was built
+
+Design a CruiseShip class that extends the Ship class. The CruiseShip class should have the following members:
+	A field for the maximum number of passengers (an int)
+	A constructor and appropriate accessor and mutators
+	A toString method that overrides the toString method in the base class. The CruiseShip class’s toString method should display only the ship’s name and the maximum number of passengers
+Design a CargoShip class that extends the Ship class. The CargoShip class should have the following members:
+	A field for the cargo capacity in homage (an int)
+	a constructor  and appropriate accessors and mutators
+	a toString method that overrides the toString method in the base class. The CargoShip class’s toString method should display only the ship’s name and the ship’s cargo capacity.
+
+Demonstrate the classes in a program that has a Ship array. Assign various Ship,CruiseShip, and CargoShip objects to the array elements. The program should then step through the array, calling each object’s toString method. (See code Listing 9-25 as an example)

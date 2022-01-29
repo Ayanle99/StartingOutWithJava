@@ -1,0 +1,14 @@
+Create an application that calculates the registration fees for a conference. The general conference registration
+fee is $895 per person, and student registration is $495 per person.  There is also an optional opening night dinner
+with a keynote speech for $40 per person. In addition, the optional
+preconference workshops listed in Table-12-3 are available.
+
+
+Workshop                      Fee
+Introduction to E-commerce    $295
+The Future of the Web         $295
+Advanced Java Programming     $395
+Network Security              $395
+
+
+The application should allow the user to select the registration type, the optional opening night dinner and keynote speech, and  as many preconference workshops as desired . The total cost should be displayed.

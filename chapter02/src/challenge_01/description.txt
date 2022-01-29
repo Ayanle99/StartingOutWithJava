@@ -1,0 +1,11 @@
+Write a program that declares the following:
+
+ - A String variable named name
+ - An int variable named age
+ - A double variable named annualPay
+
+Store your age, name, and desired annual income as literals in these variables. The program should display these values on the screen in a manner similar to the following
+
+
+My name is Joe Mahoney, my age is 26 and
+I hope to earn $100000.0 per year.

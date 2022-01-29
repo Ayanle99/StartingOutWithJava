@@ -1,0 +1,18 @@
+PayrollClassExceptions
+Programming challenge 5 of chapter 3 required you to write a Payroll class that calculates
+an employee’s payroll. Write exception classes for the following error conditions:
+
+1) An empty string is given for the employee’s name.
+
+2) An invalid value is given for the employee’s ID number. If you implemented this field as a String,
+then an empty string would be invalid. If you implemented this field as a numeric variable, then a
+negative number or zero would be invalid.
+
+3) An invalid number is given for the number of hours worked. This would be a negative number or
+a number greater than 84.
+
+4) An invalid number is given for the hourly pay rate. This would be a negative number  or a number
+greater than 25.
+
+Modify the Payroll class so it throws the appropriate exception when any of these errors occurs.
+Demonstrate the exception classes in  a program.

@@ -1,0 +1,22 @@
+The Skate Shop sells the skateboard products listed in Table 12-2
+
+Decks                           Truck Assemblies                Wheels
+___________________________________________________________________________________
+The master Thrasher $60         7.75-inch axle $35              51 mm $20
+The Dictator $45                8-inch axle $45                 55 mm $22
+The Street King $50             8.5-inch axle $45               61 mm $28
+
+
+In addition, the Skate Shop sells the following miscellaneous products and services
+
+	Grip tape: $10
+	Bearings: $30
+	Riser pads: $2
+	Nuts & bolts kit: $3
+
+
+Create an application that allows the user to select one deck, one truck assembly,
+and one wheel set from either list components or combo boxes. The application
+should also have a list components that allows the user to select multiple
+miscellaneous  products. The application should display the subtotal, the amount
+of sales tax (at 6%), and the total of the order.

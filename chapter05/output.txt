@@ -1,0 +1,4 @@
+Hours               Distance Traveled
+1                   88
+2                   176
+3                   264

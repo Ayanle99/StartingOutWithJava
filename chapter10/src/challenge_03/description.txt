@@ -1,0 +1,6 @@
+Programming Challenge 4 of chapter 3 required you to write a RetailItem class that hold
+data pertaining to a retail item. Write an exception class that can be instantiated and
+thrown when a negative number is given for the price. Write another exception class that
+Can be instantiated and thrown when a negative number is given for the units on hand.
+
+Demonstrate the exwception classes in a program.

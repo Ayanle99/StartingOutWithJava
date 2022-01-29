@@ -1,0 +1,16 @@
+Miscellaneous String Operations
+
+Write a class with the following static methods
+
+wordCount. This method should accept a String object as an argument  and return the number of words contained in the object.
+arrayToString. This method accepts a char array as an argument and converts it to a String object the method should return a reference to the String object.
+mostFrequent. The method accepts a String object as an argument and returns the character that occurs most frequently in the object.
+replaceSubstring. This method accepts three String objects as arguments Let’s call them String1, string2, and string3, It searches String1 for all occurrences of string2. When it finds an occurrence of string2, it replaces it with string3. For example, suppose the three arguments have the following values:
+
+String1 = “the dog  jumped over the fence”;
+String2 = “the”;
+String3 = “that”;
+
+Write these three arguments, the method would return a string object with the value “that dog jumped over that fence”.
+
+Demonstrate each of these methods in a complete program.

@@ -1,0 +1,16 @@
+A university has the following dormitories:
+
+Allen Hall: $1,500 per semester
+Pike Hall: $1,600 per semester
+Farthing Hall: $1,200 per semester
+University Suites: $1,800 per semester
+
+The university also offers the following meet plans:
+
+	7 meals per week: $560 per semester
+	14 meals per week: $1,095 per semester
+	Unlimited meals: $1,500 per semester
+
+Create an application with two combo boxes. One should hold the names of the dormitories,
+and the other should hold the meal plans. The user should select a dormitory and a meal
+plan, and the application should show the total charges for the semester.

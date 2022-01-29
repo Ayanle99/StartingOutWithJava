@@ -1,0 +1,28 @@
+Create a GUI application that calculates and displays the total travel expenses of a business person on a trip. Here is the information that the user must provide:
+
+1) Number of days on the trip
+
+2) Amount of airfare, if any
+3( Amount of car rental fees, if any
+4) Number of miles driven, if a private vehicle was used
+5) Amount of parking fees, if any
+6) Amount of taxi charges, if any
+
+7) Conference or seminar registration fees, if any
+8) Lodging charges, per night
+
+The company reimburses travel expenses according to the following policy:
+
+1) $37 per day for meals
+2) Parking fees, up to $10.00 per day
+3) Taxi charges up to $20.00 per day
+4) Lodging charges up to $95.00 per day
+5) If a private vehicle is used, $0.27 per mile driven
+
+
+The application should calculate and display the following:
+
+1) Total expenses incurred by the businessperson
+2) The total allowable expenses for the trip
+3) The excess that must be paid by the businessperson, if any
+4) The amount saved by the businessperson if the expenses were under the total allowed

@@ -1,0 +1,13 @@
+Write a program that has two parallel arrays of String objects. One of the array should hold people’s names and the other should hold their phone numbers. Here are sample contents of both arrays.
+
+Name Array Sample Contents    phone Array Sample Contents
+
+“Harrison, Ross”                         “555-2234”
+“James, Jean”                            “555-9098”
+“Smith, William”                          “555-1785”
+“Smith, Brad”                              “555-9224”
+
+The program should ask the user to enter name or  the first few characters of a name to search for in the array. The program should display all of the names that match the user’s input and their corresponding phone numbers. For example, if the user enters “Smith,” the program should display the following name and phone numbers from the line:
+
+     Smith, William 555-1785
+     Smith, Brad 555-9224

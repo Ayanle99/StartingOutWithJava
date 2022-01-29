@@ -1,0 +1,11 @@
+A retail company must file a monthly sales tax report listing the total sales for the month,
+and the amount of state and county sales tax collected. The state sales tax rate is 4% and
+the county sales tax rate is 2%. Create a GUI application that allows the user to enter
+the total sales for the month into a text field. From this figure, the application should
+calculate and display the following:
+
+1) The amount of county sales tax
+2) The amount of state sales tax
+3) The total sales tax (county plus state)
+
+In the application’s code, represent the county tax rate (0.02) and the state tax rate (0.04( as named constants.

@@ -1,0 +1,5 @@
+TestScores Class Custom Exception
+
+Write an exception class named InvalidTestScore. Modify the TestScore class you
+wrote in Programming Challenge 1 so it throws an InvalidTestScore exception
+if any of the test scores in the array are invalid.

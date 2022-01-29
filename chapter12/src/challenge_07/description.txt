@@ -1,0 +1,25 @@
+A custom window shade designer charges a base fee of $50 per shade. In addition, charges are added for certain styles, sizes and colors as follows.
+
+Style:
+
+Regular shades: Add $0
+Folding shades: Add $10
+Roman shades: Add $15
+
+Sizes:
+
+25 inches wide: Add $0
+27 inches wide: Add $2
+32 inches wide: Add $4
+40 inches wide: Add $6
+
+Colors
+
+Natural: Add $5
+Blue: Add $0
+Teal: Add $0
+Red: Add $0
+Green: Add $0
+
+
+Create an application that allows the user to select the style, size, color, and number of shades from lists or combo boxes. The total charges should be displayed.
