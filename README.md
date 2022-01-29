@@ -3,6 +3,7 @@ Starting Out With Java
 ````
 All chapters in the book Starting Out With Java - Fifth Edition. 
 ````
+> Starting Out With Java (Fifth Edition) All the programming challenges in the book is solved here. If you want to watch the video version of this, please check out my YouTube channel 'The blind programmer' or follow bellow links.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chapters' playlist
 
